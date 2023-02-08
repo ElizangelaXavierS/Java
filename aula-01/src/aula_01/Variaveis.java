@@ -17,8 +17,8 @@ public class Variaveis {
 		numero = leia.nextInt();
 		
 		System.out.println("Digite seu nome:");
-		//leia.skip("\\R?");
-		nome = leia.next();
+		leia.skip("\\R?");
+		nome = leia.nextLine();
 		
 		System.out.println("Digite a area: ");
 		area = leia.nextDouble();

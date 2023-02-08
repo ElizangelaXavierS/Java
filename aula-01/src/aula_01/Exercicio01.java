@@ -14,7 +14,7 @@ public class Exercicio01 {
 		
 		float novoSalario = salario + abono;
 		
-		System.out.println("O novo salário é:" + novoSalario);
+		System.out.println("O novo salário é: " + novoSalario);
 		
 	}
 }
