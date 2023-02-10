@@ -1,8 +1,8 @@
-package tabuada;
+package exemplo_em_aula;
 
 import java.util.Scanner;
 
-public class Tabuta {
+public class Tabuada {
 
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
