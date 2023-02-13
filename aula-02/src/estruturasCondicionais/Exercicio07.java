@@ -7,7 +7,7 @@ public class Exercicio07 {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		
-		float n1,n2, resultado;
+		float n1,n2;
 		int codigo;
 		
 		System.out.println("Digite o primeiro número:");
@@ -37,7 +37,7 @@ public class Exercicio07 {
 			System.out.println(n1 + " / " + n2 + " = " + (n1/n2));
 			break;
 		default:
-			System.out.println("Operação Invalida");
+			System.out.println("Operação Inválida");
 		}
 
 	}

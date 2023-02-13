@@ -20,7 +20,7 @@ public class Calculadora {
 		n2 = leia.nextDouble();
 		
 		System.out.println("O numero  " + n1 + " elevadoa a numero " + n2 + " é igual a " + Math.pow(n1, n2)); 
-		System.out.println("O numero  " + n1 + " elevadoa a numero " + n2 + " é igual a " + df.format(Math.sqrt(n1))); 
+		System.out.println("A raz quadrada do número" + n1 + " é igual a " + df.format(Math.sqrt(n1))); 
 		
 		
 		System.out.println("Pré Incremento ");
