@@ -30,7 +30,8 @@ public class Variaveis {
 //		
 //		System.out.println(" O Area é:" + df.format(area));
 
-
+		leia.close();
 	}
+	
 
 }
