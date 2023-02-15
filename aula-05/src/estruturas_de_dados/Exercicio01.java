@@ -20,7 +20,7 @@ public class Exercicio01 {
 			System.out.println("       1 - Adicionar cliene na fila        ");
 			System.out.println("       2 - Listar todos os clientes        ");
 			System.out.println("       3 - Retira o cliente da lista       ");
-			System.out.println("       4 - Sair                            ");
+			System.out.println("       0 - Sair                            ");
 			System.out.println("                                           ");
 			System.out.println("===========================================");
 			System.out.println("Entre com a opção desejada: ");
