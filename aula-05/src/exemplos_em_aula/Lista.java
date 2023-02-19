@@ -48,7 +48,7 @@ public class Lista {
 				if (notas.contains(nota)) {
 					System.out.println("O indice da minha nota é: " + notas.indexOf(nota));
 				}else {
-					System.out.println("Nota não existe");
+					System.out.println("Nota não existe\n");
 				}
 
 				break;
@@ -60,7 +60,7 @@ public class Lista {
 				if(notas.contains(nota)) {
 				notas.remove(notas.indexOf(nota));
 				}else {
-					System.out.println("Nota não existe");
+					System.out.println("Nota não existe\n");
 				}
 
 				break;
