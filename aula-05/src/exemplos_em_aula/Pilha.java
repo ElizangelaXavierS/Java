@@ -24,6 +24,6 @@ public class Pilha {
 		for (var elemento: pilha) {
 			System.out.println(elemento);
 	}
-		System.out.println("\n Topo da pilha " + pilha.peek());
+		System.out.println("\nTopo da pilha " + pilha.peek());
 
 }}
