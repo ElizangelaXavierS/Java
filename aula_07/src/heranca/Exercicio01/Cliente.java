@@ -1,7 +1,6 @@
-package fundamentos_POO.Exercicio01;
+package heranca.Exercicio01;
 
 public class Cliente {
-	
 	private String nome;
 	private String celular;
 	private int idade;
@@ -18,6 +17,17 @@ public class Cliente {
 	}
 
 
+	public void visualizar() {
+		System.out.println("======================");
+		System.out.println("    DADOS DO CLIENTE   ");
+		System.out.println("======================");
+		System.out.println("Nome: " + this.nome);
+		System.out.println("Celular: " + this.celular);
+		System.out.println("Idade: " + this.idade);
+		System.out.println("Genero: " + this.genero);
+		System.out.println("Email: " + this.email );
+		
+	}
 	
 
 	public String getNome() {
@@ -59,18 +69,8 @@ public class Cliente {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
-	public void visualizar() {
-		System.out.println("======================");
-		System.out.println("    DADOS DO CLIENTE   ");
-		System.out.println("======================");
-		System.out.println("Nome: " + this.nome);
-		System.out.println("Celular: " + this.celular);
-		System.out.println("Idade: " + this.idade);
-		System.out.println("Genero: " + this.genero);
-		System.out.println("Email: " + this.email );
-		
-	}
 	
+	
+
 
 }
