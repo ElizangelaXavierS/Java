@@ -17,7 +17,7 @@ public class Vendedor extends Funcionario {
 	}
 	public void visualizar() {
 		System.out.println("======================");
-		System.out.println("    DADOS DO VENDENDOR  ");
+		System.out.println("  DADOS DO VENDENDOR  ");
 		System.out.println("======================");
 		System.out.println("Matricula: " + this.getMatricula());			
 		System.out.println("Nome: " + this.getNome());
