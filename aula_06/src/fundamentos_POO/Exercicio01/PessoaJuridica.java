@@ -18,15 +18,8 @@ public class PessoaJuridica extends Cliente{
 	}
 
 	public void visualizar() {
-		System.out.println("**************************");
-		System.out.println("            DADOS         ");
-		System.out.println("**************************");
-		System.out.println("Nome: " + this.getNome());
-		System.out.println("Celular: " + this.getCelular());
-		System.out.println("Idade: " + this.getIdade());
-		System.out.println("Genero: " + this.getGenero() );
-		System.out.println("Email: " + this.getEmail());
-		System.out.println("CNPJ: " + this.getCnpj() );
+		super.visualizar();
+		System.out.println("CNPJ: " + this.cnpj);
 	
 	}
 
