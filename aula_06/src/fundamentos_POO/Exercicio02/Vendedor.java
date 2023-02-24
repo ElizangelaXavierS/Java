@@ -16,15 +16,8 @@ public class Vendedor extends Funcionario {
 		this.metasDeVenda = metasDeVenda;
 	}
 	public void visualizar() {
-		System.out.println("======================");
-		System.out.println("  DADOS DO VENDENDOR  ");
-		System.out.println("======================");
-		System.out.println("Matricula: " + this.getMatricula());			
-		System.out.println("Nome: " + this.getNome());
-		System.out.println("Celular: " + this.getCelular());
-		System.out.println("Idade: " + this.getIdade());
-		System.out.println("Email: " + this.getEmail());
-		System.out.println("Meta de venda:  " + this.getMetasDeVenda() );
+		super.visualizar();
+		System.out.println("Meta de venda:  " + this.metasDeVenda);
 	}
 	
 
